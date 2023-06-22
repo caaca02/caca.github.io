@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi Suhu</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Konversi Suhu</h1>
+
+        <form id="temperatureForm">
+            <div class="input-group">
+                <label for="inputSuhu">Suhu Celcius :</label>
+                <input type="number" id="inputSuhu" placeholder="Masukkan suhu dalam Celcius" required>
+            </div>
+
+            <div class="button-group">
+                <button type="button" id="konversiBtn">Konversi</button>
+                <button type="button" id="resetBtn">Reset</button>
+                <button type="button" id="reverseBtn">Reverse</button>
+            </div>
+
+            <div class="input-group">
+                <label for="hasilKonversi">Hasil Konversi :</label>
+                <input type="text" id="hasilKonversi" placeholder="Hasil konversi akan ditampilkan di sini" readonly>
+            </div>
+
+            <div class="input-group">
+                <label for="caraKalkulasi">Cara Konversi:</label>
+                <input type="text" id="caraKalkulasi" placeholder="Cara konversi akan ditampilkan di sini" readonly>
+            </div>
+        </form>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
